@@ -1,0 +1,10 @@
+{
+  // Recommended Java settings for this workspace
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.debug.settings.console": "internalConsole",
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "build/classes",
+
+  // Optional: if you place the JavaFX SDK inside the workspace, point to it here so some extensions can detect it.
+  "javafx.sdk.path": "/Users/macbook/Downloads/javafx-sdk-24.0.2/lib"
+}

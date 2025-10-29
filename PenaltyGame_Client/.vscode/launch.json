@@ -1,0 +1,15 @@
+{
+  // Use this file to configure the debugger for running the JavaFX application in VS Code.
+  // Adjust "vmArgs" "--module-path" path if your JavaFX SDK is in a different place.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch PenaltyGame (JavaFX)",
+      "request": "launch",
+      "mainClass": "penaltyclient.PenaltyClient",
+      "projectName": "PenaltyGame_Client",
+      "vmArgs": "--module-path /Users/macbook/Downloads/javafx-sdk-24.0.2/lib --add-modules=javafx.controls,javafx.fxml"
+    }
+  ]
+}
